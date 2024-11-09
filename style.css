@@ -3,6 +3,35 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    
+      background: linear-gradient(179deg, #66ff64, #64adff);
+      background-size: 400% 400%;
+      background-position: center;
+      animation: gradient 15s ease infinite;
+      height: 100vh;
+  
+      -webkit-animation: AnimationName 6s ease infinite;
+      -moz-animation: AnimationName 6s ease infinite;
+      animation: AnimationName 6s ease infinite;
+  }
+  
+  @-webkit-keyframes AnimationName {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:51% 0%}
+      50%{background-position:50% 100%}
+      100%{background-position:51% 0%}
+  }
+  
   h1{
     display: flex;
     justify-content: center;
